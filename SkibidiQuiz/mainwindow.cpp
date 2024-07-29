@@ -16,15 +16,11 @@ MainWindow::~MainWindow()
 {
     delete ui;//delete the ui
 }
-/**
- * @brief MainWindow::on_startButton_clicked - button to start the game
- */
 void MainWindow::on_startButton_clicked()
 {
 }
-/**
- * @brief MainWindow::on_exitButton_clicked - button click that closes the application
- */
 void MainWindow::on_exitButton_clicked()
 {
+
 }
+

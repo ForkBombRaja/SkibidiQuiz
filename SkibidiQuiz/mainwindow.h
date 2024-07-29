@@ -31,6 +31,15 @@ public:
      */
     ~MainWindow();
 
+private slots:
+    /**
+     * @brief on_startButton_clicked-start the game
+     */
+    void on_startButton_clicked();
+    /**
+     * @brief on_exitButton_clicked-exit application
+     */
+    void on_exitButton_clicked();
 private:
     /**
      * @brief ui the ui object
