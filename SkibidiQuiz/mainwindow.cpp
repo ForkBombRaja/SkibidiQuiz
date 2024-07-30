@@ -21,6 +21,19 @@ void MainWindow::on_startButton_clicked()
 }
 void MainWindow::on_exitButton_clicked()
 {
-
 }
-
+void MainWindow::on_answerOption1_clicked()
+{
+}
+void MainWindow::on_answerOption2_clicked()
+{
+}
+void MainWindow::on_answerOption3_clicked()
+{
+}
+void MainWindow::on_exitGameButton_clicked()
+{
+}
+void MainWindow::on_pauseButton_clicked()
+{
+}

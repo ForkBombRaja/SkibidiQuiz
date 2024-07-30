@@ -30,7 +30,6 @@ public:
      * @brief the destructior for the main window
      */
     ~MainWindow();
-
 private slots:
     /**
      * @brief on_startButton_clicked-start the game
@@ -40,6 +39,26 @@ private slots:
      * @brief on_exitButton_clicked-exit application
      */
     void on_exitButton_clicked();
+    /**
+     * @brief on_answerOption1_clicked-select the first answer option
+     */
+    void on_answerOption1_clicked();
+    /**
+     * @brief on_answerOption2_clicked-select the second answer option
+     */
+    void on_answerOption2_clicked();
+    /**
+     * @brief on_answerOption3_clicked-select the third answer optiom
+     */
+    void on_answerOption3_clicked();
+    /**
+     * @brief on_exitGameButton_clicked-exit the game to the main menu after the game initially ends
+     */
+    void on_exitGameButton_clicked();
+    /**
+     * @brief on_pauseButton_clicked-pause the game and open the pause menu
+     */
+    void on_pauseButton_clicked();
 private:
     /**
      * @brief ui the ui object
