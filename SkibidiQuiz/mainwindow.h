@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include <QMainWindow>
+#include "dialog.h"
+#include <QToolButton>
 /**
  * @brief This is the header file for the main window
  * @author Aditya Mukerjee
@@ -8,15 +10,16 @@
  */
 QT_BEGIN_NAMESPACE
 /**
- * @namespace the ui
+ * @namespace the UI
  */
 namespace Ui {
-/**
- * @class the header file for the main windiow.
- */
 class MainWindow;
 }
 QT_END_NAMESPACE
+/**
+ * @class the main window.
+ * @extends QMainWindow
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
