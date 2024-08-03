@@ -130,28 +130,28 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{965af14b-0a04-4f08-8d70-0978fc3eae6c}</uid>
+                    <uid>{08aebcd4-98fc-4207-a40a-3a6c1e347e29}</uid>
                     <type>1</type>
                     <declaration>QString correctAnswer</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{a25f8499-0ff8-42ec-a2f5-12552a5c8310}</uid>
+                    <uid>{d3e5e7c3-c44e-4846-af3d-888f4b29ecaf}</uid>
                     <type>1</type>
                     <declaration>QString questionText</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{ab1ad127-ed2b-4048-afa5-274509a12403}</uid>
+                    <uid>{6283dd6a-6e90-4341-a492-3e71e2b0713c}</uid>
                     <type>1</type>
                     <declaration>QList&lt;QString&gt; answerChoices</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{eeeea3f8-d1cb-4938-900b-e5bd0c952363}</uid>
+                    <uid>{a208445a-21f0-40bb-8e13-847472b91198}</uid>
                     <type>2</type>
                     <declaration>bool checkAnswer(QString answerChoice)</declaration>
                    </MClassMember>
