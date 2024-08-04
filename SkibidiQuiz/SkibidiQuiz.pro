@@ -10,12 +10,14 @@ CONFIG += c++17
 
 SOURCES += \
     dialog.cpp \
+    game.cpp \
     main.cpp \
     mainwindow.cpp \
     question.cpp
 
 HEADERS += \
     dialog.h \
+    game.h \
     mainwindow.h \
     question.h
 

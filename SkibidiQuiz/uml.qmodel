@@ -71,9 +71,8 @@
                          </base-DElement>
                          <object>{27304959-b1ee-4c7a-bc17-01a6b7eb0d0a}</object>
                          <name>Game</name>
-                         <pos>x:180;y:-5</pos>
-                         <rect>x:-110;y:-65;w:220;h:130</rect>
-                         <auto-sized>false</auto-sized>
+                         <pos>x:180;y:-10</pos>
+                         <rect>x:-85;y:-55;w:170;h:110</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -101,7 +100,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1722672255710</last-modified>
+                  <last-modified>1722732925182</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -213,21 +212,21 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{c38bdea8-617c-46f7-9975-9d98bfc82ec2}</uid>
+                    <uid>{29feba5c-111d-4145-a864-a1587a0707dc}</uid>
                     <type>1</type>
                     <declaration>int score</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{350ee677-a6a7-4641-9778-a8b1b4d5226e}</uid>
+                    <uid>{4985ab95-1c07-40ba-b893-96dc474f0f4a}</uid>
                     <type>2</type>
                     <declaration>void changeScore()</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{1d966f98-954c-465c-ab41-7a2ac42e061d}</uid>
+                    <uid>{67ab0e05-7aab-47b9-98e3-47fd91cb7e4c}</uid>
                     <type>1</type>
                     <declaration>QList&lt;Question&gt; questionList</declaration>
                    </MClassMember>
