@@ -32,6 +32,7 @@ public:
         exitWarning = new QLabel(Dialog);
         exitWarning->setObjectName("exitWarning");
         exitWarning->setGeometry(QRect(30, 30, 341, 61));
+        exitWarning->setAlignment(Qt::AlignCenter);
         resumeGameButton = new QPushButton(Dialog);
         resumeGameButton->setObjectName("resumeGameButton");
         resumeGameButton->setGeometry(QRect(150, 120, 83, 29));
@@ -47,9 +48,9 @@ public:
     void retranslateUi(QDialog *Dialog)
     {
         Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "Dialog", nullptr));
-        exitWarning->setText(QCoreApplication::translate("Dialog", "Are you sure you want to end the game and exit?", nullptr));
+        exitWarning->setText(QCoreApplication::translate("Dialog", "Are you sure you want to quit?", nullptr));
         resumeGameButton->setText(QCoreApplication::translate("Dialog", "Resume", nullptr));
-        confirmButton->setText(QCoreApplication::translate("Dialog", "Exit", nullptr));
+        confirmButton->setText(QCoreApplication::translate("Dialog", "Quit", nullptr));
     } // retranslateUi
 
 };

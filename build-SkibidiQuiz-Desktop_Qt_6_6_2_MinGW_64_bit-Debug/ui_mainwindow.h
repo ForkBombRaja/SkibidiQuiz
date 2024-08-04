@@ -54,7 +54,8 @@ public:
         exitButton->setGeometry(QRect(350, 370, 83, 29));
         display = new QLabel(centralwidget);
         display->setObjectName("display");
-        display->setGeometry(QRect(120, 100, 561, 81));
+        display->setGeometry(QRect(100, 90, 581, 81));
+        display->setAlignment(Qt::AlignCenter);
         answerOption1 = new QPushButton(centralwidget);
         answerOption1->setObjectName("answerOption1");
         answerOption1->setGeometry(QRect(300, 260, 171, 41));

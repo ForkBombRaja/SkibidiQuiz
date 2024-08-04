@@ -43,14 +43,17 @@
    <widget class="QLabel" name="display">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>100</y>
-      <width>561</width>
+      <x>100</x>
+      <y>90</y>
+      <width>581</width>
       <height>81</height>
      </rect>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QPushButton" name="answerOption1">

@@ -49,7 +49,7 @@
                          </base-DElement>
                          <object>{f047b3b6-8725-4855-900f-318d5cc89a49}</object>
                          <name>Question</name>
-                         <pos>x:180;y:185</pos>
+                         <pos>x:180;y:190</pos>
                          <rect>x:-115;y:-65;w:230;h:130</rect>
                          <auto-sized>false</auto-sized>
                          <visual-role>0</visual-role>
@@ -71,8 +71,8 @@
                          </base-DElement>
                          <object>{27304959-b1ee-4c7a-bc17-01a6b7eb0d0a}</object>
                          <name>Game</name>
-                         <pos>x:180;y:-10</pos>
-                         <rect>x:-85;y:-55;w:170;h:110</rect>
+                         <pos>x:180;y:-20</pos>
+                         <rect>x:-105;y:-80;w:210;h:160</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -100,7 +100,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1722732925182</last-modified>
+                  <last-modified>1722735690347</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -129,28 +129,28 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{08aebcd4-98fc-4207-a40a-3a6c1e347e29}</uid>
+                    <uid>{26a02db7-31d2-4329-92f2-7ca315185c9b}</uid>
                     <type>1</type>
                     <declaration>QString correctAnswer</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{d3e5e7c3-c44e-4846-af3d-888f4b29ecaf}</uid>
+                    <uid>{3cdd4747-f29c-414a-a4dd-60d08f7ab01e}</uid>
                     <type>1</type>
                     <declaration>QString questionText</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{6283dd6a-6e90-4341-a492-3e71e2b0713c}</uid>
+                    <uid>{d7806a7b-5602-413f-ba0e-3a4240e1d848}</uid>
                     <type>1</type>
                     <declaration>QList&lt;QString&gt; answerChoices</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{a208445a-21f0-40bb-8e13-847472b91198}</uid>
+                    <uid>{dec91843-3c1b-4e85-84ea-608de134cf6c}</uid>
                     <type>2</type>
                     <declaration>bool checkAnswer(QString answerChoice)</declaration>
                    </MClassMember>
@@ -212,21 +212,42 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{29feba5c-111d-4145-a864-a1587a0707dc}</uid>
+                    <uid>{728680ae-e8fd-4374-b267-bb9cf6dc30bb}</uid>
                     <type>1</type>
                     <declaration>int score</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{4985ab95-1c07-40ba-b893-96dc474f0f4a}</uid>
+                    <uid>{b3305626-8c20-4eb4-b1a0-6be13fc55054}</uid>
+                    <type>1</type>
+                    <declaration>int currentQuestion</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{30197046-3696-4abf-b98d-1aa725334218}</uid>
+                    <type>1</type>
+                    <declaration>int totalQuestions</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{52cf4c98-455e-4e03-bb96-ac05e183cad4}</uid>
                     <type>2</type>
                     <declaration>void changeScore()</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{67ab0e05-7aab-47b9-98e3-47fd91cb7e4c}</uid>
+                    <uid>{ab9692ff-d728-403d-b5b8-aff7b0352e5c}</uid>
+                    <type>2</type>
+                    <declaration>void addQuestion(Question question)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c81a4256-3f5a-4598-bfa5-228804d0b493}</uid>
                     <type>1</type>
                     <declaration>QList&lt;Question&gt; questionList</declaration>
                    </MClassMember>

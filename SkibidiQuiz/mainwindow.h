@@ -3,6 +3,8 @@
 #include <QMainWindow>
 #include "dialog.h"
 #include <QToolButton>
+#include "game.h"
+#include "question.h"
 /**
  * @brief This is the header file for the main window
  * @author Aditya Mukerjee
@@ -33,6 +35,10 @@ public:
      * @brief the destructior for the main window
      */
     ~MainWindow();
+    /**
+     * @brief game - the game object
+     */
+    Game game;
 private slots:
     /**
      * @brief on_startButton_clicked-start the game

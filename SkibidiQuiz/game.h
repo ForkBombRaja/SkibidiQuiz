@@ -15,21 +15,29 @@ public:
      */
     int score;
     /**
+     * @brief currentQuestions - index of the question were on as per questionList
+     */
+    int  currentQuestion;
+    /**
+     * @brief totalQuestions-total number of questions
+     */
+    int totalQuestions;
+    /**
      * @brief questionList - the list of questions in the game
      */
     QList<Question> questionList;
     /**
-     * @brief Game - the constructor for a game
-     * @param question1 - the first question
-     * @param question2 - the second question
-     * @param question3 - the third question
-     * @param question4 - the fourth question
-     * @param question5 - the fifth question
+     * @brief Game - default constructor
      */
-    Game(Question question1, Question question2, Question question3, Question question4, Question question5);
+    Game();
     /**
      * @brief changeScore - add 20 points for the score
      */
     void changeScore();
+    /**
+     * @brief addQuestion - add questions
+     * @param question - the question to add
+     */
+    void addQuestion(Question question);
 };
 #endif // GAME_H
